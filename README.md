@@ -19,7 +19,7 @@ For my optimized model, I used Keras Tuner (results shown below).
 No, I wasn't able to achieve target model performance.
      
 <b>What steps did you take to try and increase model performance?</b> I completed the following steps in attempts to improve performance:
-* Removed 'ASK_AMT' column
+* Removed 'ASK_AMT' column (added back in)
 * Adjusted buckets (this didn't impact numbers significantly, so I changed back to original)
 * Tested 'swish' for activation (changed back to relu after running Keras Tuner)
 * Tested the addition of hidden layers (adjusted to 6 after running Keras Tuner)
